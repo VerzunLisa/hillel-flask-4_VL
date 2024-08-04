@@ -1,15 +1,14 @@
 import requests
 
 
-def test_product_create(name):
+def test_product_create():
     # Create a new product
     url = "http://127.0.0.1:5002/products"
 
     data = {
-        "name": name,
+        "name": "jack mogran",
         "price": 80,
         "is_18_plus": False,
-        "category_id": 1
     }
 
     response = requests.post(url, json=data)
@@ -71,4 +70,4 @@ def test_search_name_2():
 
 
 if __name__ == "__main__":
-    test_search_name_1()
+    test_product_create()
