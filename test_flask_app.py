@@ -70,4 +70,4 @@ def test_search_name_2():
 
 
 if __name__ == "__main__":
-    test_product_create()
+    test_search_name_1()
