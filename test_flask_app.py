@@ -69,12 +69,6 @@ def test_search_name_2():
     print(response.status_code)
     print(response.text)
 
-"""""
-if __name__ == "__main__":
-    # Generate 1000 products
-    for i in range(100):
-        test_product_create(f"Product {i}")
-"""""
 
 if __name__ == "__main__":
     test_search_name_1()

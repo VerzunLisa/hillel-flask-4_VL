@@ -106,4 +106,3 @@ def search_name():
         return products
     elif not product_name:
         return {"error": "Product not found"}, 404
-
